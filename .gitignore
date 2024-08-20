@@ -1,0 +1,19 @@
+# chrome nonsense
+.config/google-chrome/
+.config/chromium/
+
+# obsidian cache
+.config/obsidian/Cache/
+.config/obsidian/Shared*
+.config/obsidian/Local*
+.config/obsidian/GPUCache/
+.config/obsidian/IndexedDB/
+.config/obsidian/Dawn*
+.config/obsidian/Crashpad/
+.config/obsidian/Code Cache/
+
+# imhex recents
+.config/imhex/recent
+
+# binja 
+.config/Vector 35/

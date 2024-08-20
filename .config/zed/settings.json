@@ -1,0 +1,68 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `zed: Open Default Settings` command
+// from the command palette
+{
+  "features": {
+    "copilot": false
+  },
+  "show_copilot_suggestions": false,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "buffer_font_family": "Geist Mono",
+  "buffer_font_fallbacks": ["Zed Plex Mono", "DejaVu Sans Mono"],
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Frappé - No Italics",
+    "dark": "One Dark"
+  },
+  // disable cursor blink
+  "cursor_blink": false,
+  // use relative line numbers
+  "relative_line_numbers": true,
+  // hide the scroll bar
+  "scrollbar": {
+    "show": "never"
+  },
+  // allow cursor to reach edges of screen
+  "vertical_scroll_margin": 0,
+  "vim": {
+    "use_system_clipboard": "always",
+    "use_multiline_find": true
+  },
+  "tab_bar": {
+    "show": false
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false
+  },
+  "preferred_line_length": 80,
+  "soft_wrap": "preferred_line_length",
+  "use_autoclose": false,
+  "git": {
+    "inline_blame": {
+      "enabled": false,
+      "delay_ms": 500
+    }
+  },
+  "terminal": {
+    "alternate_scroll": "off",
+    "blinking": "terminal_controlled",
+    "copy_on_select": true,
+    "line_height": "standard",
+    "toolbar": {
+      "title": true
+    },
+    "working_directory": "current_project_directory"
+  }
+}

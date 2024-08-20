@@ -1,0 +1,27 @@
+# Catppuccin Frappé
+input-background = #272a39
+prompt-background = #272a39
+text-color = #c6d0f5
+prompt-color = #e78284
+selection-color = #e5c890
+background-color = #303446
+
+# adjust padding
+padding-left = 0
+padding-right = 0
+padding-top = 0
+padding-bottom = 0
+prompt-background-padding = -1,-1,0
+input-background-padding = -1,-1,0
+
+# font
+font-size = 18
+
+# adjust size
+anchor = top
+width = 60%
+height = 60%
+
+# remove border
+border-width = 0
+outline-width = 0
